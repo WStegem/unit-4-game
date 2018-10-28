@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <h1 class='Title'>Crystal Collector</h1>
+    <div id = 'instructions'>
+        <p>Attempt to reach the goal by clicking the crystals.</p>
+        <p>Each crystal gives a random number of points. Try to record how many points each one gives and reach the goal by clicking them the correct number of times.</p>
+        <p>If your total points reaches the goal, you win! If your total points goes over the goal, you lose.</p>
+    </div>
+    <div class='scorecard'>
+        <div class='score'>
+            <p id='goal'></p>
+            <p id='points'></p>
+        </div>
+        <div id='win-tracker'>
+
+        </div>
+    </div>
+    <div id='crystals'>
+            <img id=crystal1 src="assets/images/crystal.png" alt="crystal-1">
+            <img id=crystal2 src="assets/images/crystal.png" alt="crystal-2">
+            <img id=crystal3 src="assets/images/crystal.png" alt="crystal-3">
+            <img id=crystal4 src="assets/images/crystal.png" alt="crystal-4">
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

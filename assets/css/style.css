@@ -1,0 +1,27 @@
+body{
+    background:url("../images/connectwork.png");
+    line-height:1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    background:#ffffff;
+    margin: 10px;
+    padding: 10px;
+    font-size: 300%;
+}
+.win-tracker{
+    font-size:200%;
+}
+div{
+    text-align: center;
+    width:auto;
+    background:#ffffff;
+    margin:10px;
+    padding:10px;
+}
+img{
+    margin:0 20px;
+    width:150px;
+    height:200px;
+}
